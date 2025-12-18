@@ -51,6 +51,12 @@ print(frozen)
 print(type(frozen))
 
 
+#BYTES 
+byte_data = b"Hello"
+print(byte_data)
+print(type(byte_data))
+
+
 
 #variables 
 x = 10
@@ -60,6 +66,7 @@ sum = x + y
 print("Sum:", sum)  # Outputs: 15
 diff = x - y
 print("Difference:", diff)  # Outputs: 5
+
 
 
 
