@@ -1,19 +1,55 @@
 #DATA TYPES
+#str
+name = "GenAI Journey"
+print(name)
+print(type(name))
 
-#INTEGER
-a = 13
-b = 2
-print("Integer Division:", a // b)  # O/p: 6
-print("Float Division:", a / b)      # o/p: 6.5
-print("Modulus:", a % b)             # Outputs: 1
-print("Exponentiation:", a ** b)     # Outputs: 169
-print("Type of a:", type(a))          # Outputs: <class 'int'>
-print("Type of b:", type(b))          # Outputs: <class 'int'>
-print("Boolean of a:", bool(a))        # Outputs: True
-print("Boolean of 0:", bool(0))        # Outputs: False
-print("Binary of a:", bin(a))        # Outputs: 0b1101
-print("Hexadecimal of a:", hex(a))   # Outputs: 0xd
-print("Octal of a:", oct(a))         # Outputs: 0o15
+#float
+b = 3.14
+print(b)
+print(type(b))
+
+#int
+a = 10
+print(a)
+print(type(a))
+
+#complex
+c = 2 + 3j
+print(c)
+print(type(c))
+
+#list
+numbers = [1, 2, 3, 4]
+print(numbers)
+print(type(numbers))
+
+#tuple
+tup = (10, 20)
+print(tup)
+print(type(tup))
+
+#dictionary
+student = {"name": "Sai", "age": 19}
+print(student)
+print(type(student))
+
+#boolean
+bool = True
+print(bool)
+print(type(bool))
+
+#set
+unique_nums = {1, 2, 3, 3}
+print(unique_nums)
+print(type(unique_nums))
+
+#FROZENTYPE
+
+frozen = frozenset([1, 2, 3])
+print(frozen)
+print(type(frozen))
+
 
 
 #variables 
@@ -24,6 +60,7 @@ sum = x + y
 print("Sum:", sum)  # Outputs: 15
 diff = x - y
 print("Difference:", diff)  # Outputs: 5
+
 
 
 
